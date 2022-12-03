@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <nav className="grid h-[75px] place-items-center bg-mack-purple">
-      <div className="w-full self-center px-10 lg:w-2/3 lg:px-0 3xl:w-1/3 text-mack-white">
+      <div className="w-full self-center px-10 text-mack-white lg:w-2/3 lg:px-0 3xl:w-1/3">
         <div className="flex items-center">
           <Link to="/" className="mr-10">
             <img
@@ -30,7 +30,7 @@ export default function Navbar() {
               className="w-[50px]"
             />
           </Link>
-          <div className="flex space-x-5">
+          <div className="hidden space-x-5 md:flex">
             {pages.map((page) => {
               return (
                 <Link to={page.link} className="font-code">
@@ -39,8 +39,8 @@ export default function Navbar() {
               );
             })}
           </div>
-          <div className="flex space-x-2 ml-auto">
-            <ArrowDownTrayIcon className="stroke-2 h-[24px]" />
+          <div className="ml-auto flex space-x-2">
+            <ArrowDownTrayIcon className="h-[24px] stroke-2" />
             <a
               href="/MackStanleyResume.pdf"
               target="_blank"

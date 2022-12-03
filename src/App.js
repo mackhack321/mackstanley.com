@@ -5,7 +5,7 @@ import Container from "./components/Container";
 
 function App() {
   return (
-    <div className="bg-mack-slate min-h-screen">
+    <div className="min-h-screen bg-mack-slate">
       <Router>
         <Container>
           <Routes>
