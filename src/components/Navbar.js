@@ -39,7 +39,7 @@ export default function Navbar() {
               );
             })}
           </div>
-          <div className="ml-auto flex space-x-2">
+          <div className="ml-auto hidden space-x-2 md:flex">
             <ArrowDownTrayIcon className="h-[24px] stroke-2" />
             <a
               href="/MackStanleyResume.pdf"
