@@ -20,7 +20,7 @@ export default function Project(props) {
             <span className="hidden md:block">{"//"}</span>
             <a
               href={`https://${url}`}
-              className="text-bold text-base text-mack-blue underline md:text-xl"
+              className="text-base text-mack-blue underline md:text-xl"
             >
               {url}
             </a>
