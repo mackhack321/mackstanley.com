@@ -4,12 +4,12 @@ export const pages = [
     link: "/",
   },
   {
-    title: "Experience",
-    link: "experience",
-  },
-  {
     title: "Projects",
     link: "projects",
+  },
+  {
+    title: "Experience",
+    link: "experience",
   },
 ];
 
