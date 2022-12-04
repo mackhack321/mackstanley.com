@@ -6,16 +6,18 @@ export default function Project(props) {
     <div>
       <div className="flex flex-col space-y-5 md:flex-row md:space-y-0 md:space-x-5">
         <div>
-          <img
-            src={screenshot}
-            alt={`Screenshot of ${title}`}
-            className="h-40"
-          />
+          <a href={screenshot}>
+            <img
+              src={screenshot}
+              alt={`Screenshot of ${title}`}
+              className="h-40"
+            />
+          </a>
         </div>
-        <div>
+        <div className="flex flex-col space-y-3 md:w-2/3">
           <div className="flex flex-col font-code text-xl font-bold md:flex-row md:space-x-2">
             <h2>{title}</h2>
-            <p className="hidden md:block">{"//"}</p>
+            <span className="hidden md:block">{"//"}</span>
             <a
               href={`https://${url}`}
               className="text-bold text-base text-mack-blue underline md:text-xl"
@@ -23,8 +25,8 @@ export default function Project(props) {
               {url}
             </a>
           </div>
-          <div className="mb-3 w-full">{children}</div>
-          <p className="mb-3">{stack.join(" · ")}</p>
+          <div>{children}</div>
+          <p className="font-code">{stack.join(" · ")}</p>
           <a href={github} className="text-mack-blue underline">
             GitHub repository
           </a>
