@@ -10,7 +10,7 @@ export default function Footer() {
       <div>Get in Touch</div>
       <div>{"//"}</div>
       <div className="flex justify-center space-x-5">
-        <a href={emailURL}>
+        <a href={emailURL} aria-label="Email">
           <EnvelopeIcon className="h-[24px] stroke-2" />
         </a>
         <a href={linkedinURL}>
