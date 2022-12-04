@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      code: "Fira Code",
+      code: "Fira Code, sans-serif",
     },
     extend: {
       colors: {
