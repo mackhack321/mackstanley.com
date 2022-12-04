@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/mackpc.png";
+import resume from "../files/MackStanleyResume.pdf";
 import { Link } from "react-router-dom";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
@@ -30,10 +31,10 @@ export default function Navbar() {
               })}
             </div>
             <a
-              href="/MackStanleyResume.pdf"
+              href={resume}
               className="ml-auto hidden space-x-2 md:flex"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <ArrowDownTrayIcon className="h-[24px] stroke-2" />
               <p className="font-code">Download my résumé (PDF)</p>
@@ -57,10 +58,10 @@ export default function Navbar() {
               );
             })}
             <a
-              href="/MackStanleyResume.pdf"
+              href={resume}
               className="flex space-x-2"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <ArrowDownTrayIcon className="h-[24px] stroke-2" />
               <p className="font-code">Download my résumé (PDF)</p>

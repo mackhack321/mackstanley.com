@@ -1,5 +1,6 @@
 import React from "react";
 import { skills, favorites } from "../data";
+import resume from "../files/MackStanleyResume.pdf";
 import { Link } from "react-router-dom";
 import me from "../assets/me.jpg";
 
@@ -60,10 +61,10 @@ export default function Home() {
                 My Work Experience
               </Link>
               <a
-                href="/MackStanleyResume.pdf"
+                href={resume}
                 className="w-fit text-mack-blue underline"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 My Résumé
               </a>
