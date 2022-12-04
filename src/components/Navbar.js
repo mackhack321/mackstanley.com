@@ -33,7 +33,7 @@ export default function Navbar() {
           <div className="hidden space-x-5 md:flex">
             {pages.map((page) => {
               return (
-                <Link to={page.link} className="font-code">
+                <Link to={page.link} className="font-code" key={page.title}>
                   {page.title}
                 </Link>
               );
