@@ -6,7 +6,7 @@ import { linkedinURL, githubURL, emailURL } from "../constants";
 
 export default function Footer() {
   return (
-    <footer className="mt-10 flex justify-center space-x-3 text-center font-code font-bold text-mack-white">
+    <footer className="mt-10 flex justify-center space-x-3 text-center font-code font-bold">
       <div>Get in Touch</div>
       <div>{"//"}</div>
       <div className="flex justify-center space-x-5">
