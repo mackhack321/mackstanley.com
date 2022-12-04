@@ -3,24 +3,10 @@ import logo from "../assets/mackpc.png";
 import { Link } from "react-router-dom";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
+import { pages } from "../data";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
-
-  const pages = [
-    {
-      title: "Home",
-      link: "/",
-    },
-    {
-      title: "Experience",
-      link: "experience",
-    },
-    {
-      title: "Projects",
-      link: "projects",
-    },
-  ];
 
   return (
     <header>
@@ -49,7 +35,7 @@ export default function Navbar() {
               rel="noopener"
             >
               <ArrowDownTrayIcon className="h-[24px] stroke-2" />
-              <div className="font-code">Download my résumé (PDF)</div>
+              <p className="font-code">Download my résumé (PDF)</p>
             </a>
             <Bars3Icon
               className="ml-auto h-[44px] cursor-pointer stroke-2 md:hidden"
@@ -76,7 +62,7 @@ export default function Navbar() {
               rel="noopener"
             >
               <ArrowDownTrayIcon className="h-[24px] stroke-2" />
-              <div className="font-code">Download my résumé (PDF)</div>
+              <p className="font-code">Download my résumé (PDF)</p>
             </a>
           </div>
         </div>
