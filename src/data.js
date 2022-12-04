@@ -34,6 +34,10 @@ export const favorites = [
     category: "Video Game",
     items: ["Destiny 2"],
   },
+  {
+    category: "Holiday",
+    items: ["Thanksgiving"],
+  },
 ];
 
 export const skills = [
@@ -49,5 +53,4 @@ export const skills = [
   "Documentation",
   "Team leadership",
   "Agile software development",
-  "Scrum master",
 ];
