@@ -17,7 +17,7 @@ export default function Footer() {
           <img src={linkedinLogo} alt="LinkedIn" className="h-[24px]" />
         </a>
         <a href={githubURL}>
-          <img src={githubLogo} alt="GitHub" className="h-[24px] invert" />
+          <img src={githubLogo} alt="GitHub" className="h-[24px]" />
         </a>
       </div>
     </footer>
