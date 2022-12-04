@@ -17,6 +17,7 @@ export default function Navbar() {
               <img
                 src={logo}
                 alt="Mack's logo, a pixel-art style drawing of an old PC"
+                title="mackstanley.com"
               />
             </Link>
             <div className="hidden space-x-10 md:flex">
