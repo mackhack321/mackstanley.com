@@ -3,6 +3,7 @@ import Project from "./Project";
 import flexibleworker from "../assets/screenshots/flexibleworker.jpg";
 import dndj from "../assets/screenshots/dndj.jpg";
 import personalwebsite from "../assets/screenshots/personalwebsite.jpg";
+import csv2doi from "../assets/screenshots/csv2doi.png";
 import { githubURL } from "../constants";
 
 export default function Projects() {
@@ -52,7 +53,7 @@ export default function Projects() {
           url="csv2doi.mackstanley.com"
           stack={["React", "Tailwind CSS", "Flask"]}
           github="https://github.com/mackhack321/csv2doi"
-          screenshot={dndj}
+          screenshot={csv2doi}
         >
           <p>
             CSV2DOI is a part of my work as a web development student assitant
