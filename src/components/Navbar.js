@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <header>
       <nav className="mb-5 grid place-items-center bg-mack-purple py-2">
-        <div className="w-full px-10 lg:w-2/3 lg:px-0 3xl:w-1/3">
+        <div className="w-full px-10 xl:w-2/3 xl:px-0 3xl:w-1/3">
           <div className="flex items-center">
             <Link to="/" className="mr-10">
               <img
