@@ -52,7 +52,12 @@ export default function Navbar() {
           >
             {pages.map(({ link, title }) => {
               return (
-                <Link to={link} className="font-code" key={title}>
+                <Link
+                  to={link}
+                  className="font-code"
+                  key={title}
+                  onClick={() => setShowMenu(false)}
+                >
                   {title}
                 </Link>
               );
@@ -62,6 +67,7 @@ export default function Navbar() {
               className="flex space-x-2"
               target="_blank"
               rel="noreferrer"
+              onClick={() => setShowMenu(false)}
             >
               <ArrowDownTrayIcon className="h-[24px] stroke-2" />
               <p className="font-code">Download my résumé (PDF)</p>
