@@ -16,7 +16,14 @@ export const pages = [
 export const favorites = [
   {
     category: "Food",
-    items: ["Sushi", "Cheeseburgers", "Catfish", "Spaghetti", "Pad Thai"],
+    items: [
+      "Sushi",
+      "Cheeseburgers",
+      "Catfish",
+      "Spaghetti",
+      "Pad Thai",
+      "Steak",
+    ],
   },
   {
     category: "Music",
