@@ -4,6 +4,7 @@ import flexibleworker from "../assets/screenshots/flexibleworker.jpg";
 import dndj from "../assets/screenshots/dndj.jpg";
 import personalwebsite from "../assets/screenshots/personalwebsite.jpg";
 import csv2doi from "../assets/screenshots/csv2doi.png";
+import waot from "../assets/screenshots/waot.jpg";
 import { githubURL } from "../constants";
 
 export default function Projects() {
@@ -29,6 +30,18 @@ export default function Projects() {
             Interaction during the Fall 2022 semester. Note that database
             operations (add, edit, delete) do not function because this project
             was only for the frontend. The data shown is mock data.
+          </p>
+        </Project>
+        <Project
+          title="WAOT Audit Tool"
+          url="waot.mackstanley.com"
+          stack={["React", "Tailwind CSS"]}
+          github="https://github.com/mackhack321/waot-audit-tool"
+          screenshot={waot}
+        >
+          <p>
+            A tool for computing pay based on federal wage and hour weighted
+            average overtime (WAOT) laws.
           </p>
         </Project>
         <Project
