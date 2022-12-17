@@ -66,7 +66,7 @@ export default function Experiences() {
         >
           <p>
             This was a small character-building sidequest unrelated to software
-            engineering. One of the assisted living facilities managed by the
+            engineering. One of the assisted living communities managed by the
             companies one my family members works for was in need of kitchen
             helpers and I answered the call of duty. I served food and drinks to
             residents during lunch and dinner and prepared the occasional
