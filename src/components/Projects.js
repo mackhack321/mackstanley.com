@@ -78,8 +78,7 @@ export default function Projects() {
             backend which parsed the CSV file and generated an XML file that met
             the formatting requirements of Crossref, a DOI registration agency.
             This XML file could then be uploaded ito Crossref's web portal and
-            the new DOIs would be created. The project has since been sunset,
-            but I have preserved it for demonstration purposes.
+            the new DOIs would be created.
           </p>
         </Project>
         <Project
