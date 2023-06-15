@@ -16,7 +16,7 @@ export default function Home() {
             <img
               src={me}
               alt="A very handsome portrait of Mack"
-              className="mx-auto w-1/3 md:mx-0"
+              className="mx-auto w-1/2 md:mx-0"
               title="It's me, Mack Stanley"
             />
           </div>
