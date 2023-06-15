@@ -2,7 +2,10 @@ import React from "react";
 import { skills, favorites } from "../data";
 import resume from "../files/MackStanleyResume.pdf";
 import { Link } from "react-router-dom";
-import me from "../assets/me.jpg";
+import me256 from "../assets/me-256w.jpg";
+import me455 from "../assets/me-455w.jpg";
+import me720 from "../assets/me-720w.jpg";
+import me910 from "../assets/me-910w.jpg";
 
 export default function Home() {
   return (
@@ -14,7 +17,11 @@ export default function Home() {
         <div className="flex flex-col space-y-5">
           <div>
             <img
-              src={me}
+              src={me256}
+              srcSet={`${me256} 256w, ${me455} 455w, ${me720} 720w, ${me910} 910w`}
+              // I do not understand this, but it makes my picture load very fast.
+              // From RespImageLint
+              sizes="(min-width: 2760px) 8.33vw, (min-width: 1540px) 16.67vw, (min-width: 780px) calc(25.68vw - 30px), calc(50vw - 40px)"
               alt="A very handsome portrait of Mack"
               className="mx-auto w-1/2 md:mx-0"
               title="It's me, Mack Stanley"
