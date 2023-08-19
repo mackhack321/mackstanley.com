@@ -7,6 +7,7 @@ import vitality from "../assets/companylogos/vitality.png";
 import geodis from "../assets/companylogos/geodis.png";
 import kroger from "../assets/companylogos/kroger.png";
 import hsof from "../assets/companylogos/hsof.png";
+import ellucian from "../assets/companylogos/ellucian.png";
 
 export default function Experiences() {
   return (
@@ -15,6 +16,32 @@ export default function Experiences() {
         My Work Experience
       </h1>
       <div className="flex flex-col space-y-10">
+        <Experience
+          company="Ellucian"
+          position="Software Engineering Intern"
+          logo={ellucian}
+          startDate="May 2023"
+          endDate="August 2023"
+        >
+          <ul className="list-inside list-disc">
+            <li>
+              Utilize 10+ AWS services to orchestrate the ingestion and
+              transformation of terabytes of data.
+            </li>
+            <li>
+              Maintain and improve data lake services providing data analytics
+              to 45+ universities.
+            </li>
+            <li>
+              Create automated monitoring pipelines with Jenkins for 65+
+              production tenants.
+            </li>
+            <li>
+              Improve unit testing in JavaScript with Jest and C# with xUnit and
+              Moq.
+            </li>
+          </ul>
+        </Experience>
         <Experience
           company="Mississippi State University Libraries"
           position="Web Development Student Assistant"

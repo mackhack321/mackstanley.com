@@ -25,8 +25,8 @@ export default function Home() {
             <p className="lg:w-2/3">
               My name is Mack and I enjoy web development, writing software,
               tinkering with computers, playing video games, and eating good
-              food. I am currently studying Computer Science at Mississippi State
-              University and am excited to start my career as a software
+              food. I am currently studying Computer Science at Mississippi
+              State University and am excited to start my career as a software
               engineer.
             </p>
           </div>
